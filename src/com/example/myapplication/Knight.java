@@ -16,15 +16,16 @@ public class Knight {
         Hint: There should simply be three method invocations in this method.
      */
     public void attack() {
-
+        playerStrategy.attackSmall();
+        playerStrategy.attackMedium();
+        playerStrategy.attackLarge(); 
     }
 
     /*
         Todo: Have the name of the current strategy be printed out by using this method (in accordance with the
             assignment details).
-
      */
     public void announceStrategy() {
-
+        playerStrategy.announceStrategy();
     }
 }
